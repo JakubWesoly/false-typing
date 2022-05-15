@@ -173,7 +173,7 @@ int main()
                         continue;
                     if (GetAsyncKeyState(VK_RSHIFT) & 0x8000)
                         goto reset;
-                    print_letter(element[i], element[i] >= 'A' && element[i] < 'Z');
+                    print_letter(element[i], element[i] >= 'A' && element[i] <= 'Z');
                     Sleep(rand() % 300);
                 }
                 keybd_event(VK_RETURN, 0, 0, 0);
