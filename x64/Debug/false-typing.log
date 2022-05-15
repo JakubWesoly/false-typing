@@ -1,0 +1,3 @@
+﻿  false-typing.cpp
+C:\Users\Kuba\source\repos\false-typing\false-typing.cpp(147,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  false-typing.vcxproj -> C:\Users\Kuba\source\repos\false-typing\x64\Debug\false-typing.exe

@@ -1,0 +1,7 @@
+﻿  false-typing.cpp
+C:\Users\Kuba\source\repos\false-typing\false-typing.cpp(147,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 265 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  false-typing.vcxproj -> C:\Users\Kuba\source\repos\false-typing\x64\Release\false-typing.exe
