@@ -168,10 +168,12 @@ int main()
                 }
             }
             for (auto element : lines) {
-                for (char letter : element) {
+                for (int i = 0; i < element.length(); i++) {
+                    if (i != element.length() - 1 && element[i] == ' ' && (element[i + 1] == ' ' || element[i - 1] == ' '))
+                        continue;
                     if (GetAsyncKeyState(VK_RSHIFT) & 0x8000)
                         goto reset;
-                    print_letter(letter, letter > 'A' && letter < 'Z');
+                    print_letter(element[i], element[i] >= 'A' && element[i] < 'Z');
                     Sleep(rand() % 300);
                 }
                 keybd_event(VK_RETURN, 0, 0, 0);
